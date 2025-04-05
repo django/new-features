@@ -1,7 +1,7 @@
 ---
 name: Integrate a commercial product
 description: Do you have a commercial product you'd like to see integrated with Django?
-labels: ['type / commercial']
+labels: ['type / commercial', 'phase / new']
 body:
   - type: markdown
     attributes:
