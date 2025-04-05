@@ -2,8 +2,6 @@
 
 ## TODOs
 
-- Write up instructions for SC / Feature Review team for each phase
-- Generate URLs for various queues for people to bookmark
 - Update new idea process to mention they should search existing ideas first
 
 ## Have an idea for Django?
@@ -202,9 +200,69 @@ likely the person or group of people who will be implementing the feature.
 
 Please share your opinions on the [Forum](https://forum.djangoproject.com/c/internals/5).
 
-## Steering Council instructions
+## Steering Council guidance
 
 There are several tasks that the Steering Council should take to
 maintain the backlog of ideas. Not every idea must be reviewed at
 every interval, but some ideas should constantly be moving forward.
 
+### Triaging new ideas
+
+- [Queue to review](https://github.com/tim-schilling/new-features/issues?q=is%3Aissue%20state%3Aopen%20(no%3Alabel%20OR%20label%3A%22phase%20%2F%20new%22))
+- Any relevant labels should be applied to the issue 
+- If the issue is a duplicate of another, it should be closed and referred to the original
+- The concerns of triaging are:
+    - Clarity of the proposal
+    - Label usage
+    - Duplicates
+
+### Determining consensus on community support
+
+- [Queue to review](https://github.com/tim-schilling/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20there%20community%20support%22%20)
+- The issues should be reviewed to determine if the community has arrived at consensus
+    - The question here is, “Does the community think this change is good for Django?”
+    - People who expressed significant disagreement may be asked to explain their disagreement
+    - When reviewing the issue, ignore the following as it’s irrelevant to this stage of the process
+        - It’s really hard to do
+        - We don’t have the capacity to implement this
+    - Potential results
+        - Nothing, because community discussion is ongoing or more is needed
+        - Consensus on yes, remove the "Is there community support" label and add "Is this expected in Django" label
+        - Consensus on no, the issue is closed
+    - The discussion and decision should be summarized into a single post by the team
+    - Next steps need to be communicated
+
+### Determining is this expected in Django
+
+- [Queue to review](https://github.com/tim-schilling/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20this%20expected%20in%20core%22)
+- The issue should be reviewed to determine if the idea is expected to be in Django
+    - Features that should be merged into core Django are:
+        - Proven to be integral to Django a significant number of applications
+        - The design or need of the feature going to be stable for years
+    - When reviewing the issue, ignore the following as it’s irrelevant to this stage of the process
+        - It’s really hard to do
+        - We don’t have the capacity to implement this
+        - Feasibility of making it a third-party app
+             - The changes to support an easier integration should be proposed separately
+    - Potential results
+        - Nothing, because community discussion is ongoing or more is needed
+        - Consensus on yes, remove the "Is this expected in Django" label and add "needs SC DEP" label
+        - Consensus on no, the issue is closed or remove "Is this expected in Django" label and add "third-party package" label
+    - The discussion and decision should be summarized into a single post by the team
+    - Next steps need to be communicated
+
+### Creating DEPs for expected features
+
+- [Queue to review](https://github.com/tim-schilling/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20needs%20SC%20DEP%22)
+- The issue should have a DEP created at 
+    - It should contain the following sections:
+        - Title
+        - Preamble
+        - Abstract
+        - Motivation
+        - Rationale
+        - Copyright
+    - The technical detail sections can be left for the community member who implements the feature
+    - When the Steering Council agrees on the above sections:
+        1. Remove "needs SC DEP" label and add "needs community DEP"
+        2. Add links/references between DEP draft and the feature idea issue
