@@ -13,9 +13,9 @@
 
 ```mermaid
 flowchart TD
-    newIdea[New Idea]@{ shape: circle} --> isGood{Good?}
+    newIdea[New Idea]@{ shape: circle} --> isGood{Is there community support?}
     isGood -->|No| wontfix[Won't Fix]
-    isGood -->|Yes|featureType{Expected?}
+    isGood -->|Yes|featureType{Is this expected in Django?}
     featureType --> |No|delightful{Can it be a 3rd party package?}
     featureType --> |Yes|scDEP[SC drafts DEP]
     scDEP --> expected{Can we do it?}
