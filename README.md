@@ -4,7 +4,6 @@
 
 - Write up instructions for SC / Feature Review team for each phase
 - Generate URLs for various queues for people to bookmark
-- Write up instructions for an expedited DEP process
 
 ## Have an idea for Django?
 
@@ -124,7 +123,7 @@ This is to the Steering Council's discretion.
 
 The phase after it's agreed upon that the feature belongs in Django is
 determining whether the feature can be implemented. Advancing beyond this
-phase requires a [DEP](https://github.com/django/deps/) to be created.
+phase requires a [DEP](#expedited-dep-process) to be created.
 The [Steering Council](https://docs.djangoproject.com/en/dev/internals/organization/#steering-council) or a community
 member can create the first draft. It should contain everything but the
 technical details of implementation (unless those are known already).
@@ -159,8 +158,44 @@ ecosystem.
 
 It's possible that a feature can't be a third-party package due to the nature
 of the feature or limitations of Django. In this case, the DEP process should
-be followed. This [DEP](https://github.com/django/deps/) must be written by
+be followed. This [DEP](#expedited-dep-process) must be written by
 a community member rather than the [Steering Council](https://docs.djangoproject.com/en/dev/internals/organization/#steering-council).
+
+
+## Expedited DEP process
+
+This new feature process has overlap with the existing [DEP process](https://github.com/django/deps/).
+This allows us to expedite the DEP process depending on the size of the feature
+ according to the table below. It's still important to use DEPs to identify
+the rationale, motivation and considerations of features. We're all shepherds
+of Django, and we owe it to future maintainers to explain why we choose to add things.
+
+| Feature Size                                                                                                                                   | Days to Weeks                                                                                             | Months                                                                                                                                                  | Quarters                                                                                                                                                |
+|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Pre-posal](https://github.com/django/deps/blob/main/final/0001-dep-process.rst#pre-proposal)                                                  | Completed in [Is there community support](#is-there-community-support)                                    | Completed in [Is there community support](#is-there-community-support)                                                                                  | Completed in [Is there community support](#is-there-community-support)                                                                                  |
+| [Forming the team](https://github.com/django/deps/blob/main/final/0001-dep-process.rst#forming-the-team)                                       | Author: Steering Council.<br/>Implementation team: Feature proposer or community member<br/>Shepherd: N/A | Author: Steering Council.<br/>Implementation team: Feature proposer or community member<br/>Shepherd: Community member, Fellow, Steering Council member | Author: Steering Council.<br/>Implementation team: Feature proposer or community member<br/>Shepherd: Community member, Fellow, Steering Council member |
+| [Submitting the draft](https://github.com/django/deps/blob/main/final/0001-dep-process.rst#submitting-the-draft)                               | No forum discussion, just create draft Pull Request                                                       | No forum discussion, just create draft Pull Request                                                                                                     | Follow DEP process                                                                                                                                      |
+| [Discussion, development, and updates](https://github.com/django/deps/blob/main/final/0001-dep-process.rst#discussion-development-and-updates) | N/A unless the Steering Council pushes it back                                                            | N/A unless the Steering Council pushes it back                                                                                                          | Follow DEP process                                                                                                                                      |
+| [Review & Resolution](https://github.com/django/deps/blob/main/final/0001-dep-process.rst#review-resolution)                                   | Follow DEP process                                                                                        | Follow DEP process                                                                                                                                      | Follow DEP process                                                                                                                                      |
+| [Implementation](https://github.com/django/deps/blob/main/final/0001-dep-process.rst#implementation)                                           | Follow DEP process                                                                                        | Follow DEP process                                                                                                                                      | Follow DEP process                                                                                                                                      |
+
+The Steering Council can draft DEPs on behalf of the community because when an idea passes
+through [Is this expected in Django?](#is-this-expected-in-django), the following sections
+will have been discussed and determined:
+
+- Title
+- Preamble
+- Abstract
+- Motivation
+- Rationale
+- Copyright
+
+The remaining three sections will need to be written by a community member,
+likely the person or group of people who will be implementing the feature.
+
+- Specification
+- Backwards Compatibility
+- Reference Implementation
 
 ## Do you have feedback about the process?
 
