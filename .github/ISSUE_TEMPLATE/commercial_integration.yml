@@ -1,0 +1,54 @@
+---
+name: Integrate a commercial product
+description: Do you have a commercial product you'd like to see integrated with Django?
+labels: ['commercial']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The most likely answer to this question is going to be no. However, if you're willing to fund development and maintenance for years, we are interested!
+        
+        For a baseline, the minimum financial investment you should be considering is $250,000 USD.
+        
+        If English isn't your native language, let us know and do your best. If you'd like, you can answer in your native language and we'll use translation tools.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://www.djangoproject.com/conduct/)
+      options:
+        - label: I agree to follow Django's Code of Conduct
+          required: true
+
+  - type: input
+    id: package-name
+    attributes:
+      label: Package Information
+      description: Which product are you wanting to integrate with Django?
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem(s) does this solve? Please explain the problem or problems this feature would address.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why does this belong in Django? Please explain why this functionality belongs in Django core rather than a separate package.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-details
+    attributes:
+      label: Additional Details
+      description: Please share any other details you may want.
+    validations:
+      required: false

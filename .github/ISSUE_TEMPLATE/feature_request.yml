@@ -1,0 +1,53 @@
+---
+name: Feature request
+description: Suggest a new feature or enhancement
+labels: ['feature']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking time to suggest your idea! Please be aware that this process takes a while (at least weeks). We appreciate your patience!
+        
+        If English isn't your native language, let us know and do your best. If you'd like, you can answer in your native language and we'll use translation tools.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://www.djangoproject.com/conduct/)
+      options:
+        - label: I agree to follow Django's Code of Conduct
+          required: true
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: Describe your idea in a sentence or two.
+      placeholder: A clear and concise description of what you'd like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem(s) does this solve? Please explain the problem or problems this feature would address.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-details
+    attributes:
+      label: Additional Details
+      description: Please share any other details you have. Please provide any additional context, screenshots, or examples that might help.
+    validations:
+      required: false
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation Suggestions
+      description: Can you share your suggestion(s) on how to implement this? This doesn't need to be the solution or even a POC. Sometimes it's easier for people to think about a feature when they can see part of the code.
+    validations:
+      required: false
