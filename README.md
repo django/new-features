@@ -1,8 +1,8 @@
 # Django Features
 
-## TODOs
-
-- Update new idea process to mention they should search existing ideas first
+This is a example of a repository that contains the new feature ideas for
+the Django web framework. This repository is for display purposes only and
+should not be used.
 
 ## Have an idea for Django?
 
