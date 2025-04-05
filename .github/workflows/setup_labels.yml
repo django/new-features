@@ -10,9 +10,7 @@ jobs:
       issues: write
     steps:
       - uses: actions/checkout@v2
-      - name: Sync Labels
       - uses: micnncim/action-label-syncer@v1
+        name: Sync Labels
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          manifest: .github/labels.json
