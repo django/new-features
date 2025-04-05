@@ -20,7 +20,7 @@ jobs:
             const commentBody = `Thank you ${creator} for sharing your idea! We have a lot of them so please be patient. You can see the current queue here. If you'd like to learn about other ways to get this idea more attention, please see this page.
 
               ### Community instructions
-              For commenters, please use the emoji reactions on the issue to express support, and/or concern easily. Please use the comments to ask questions or contribute knowledge about the idea. It is unhelpful to post comments of "I've love this" or "What's the state of this?"
+              For commenters, please use the emoji reactions on the issue to express support, and/or concern easily. Please use the comments to ask questions or contribute knowledge about the idea. It is unhelpful to post comments of "I'd love this" or "What's the state of this?"
 
               ### Reaction Guide
               - 👍 This is something I would use

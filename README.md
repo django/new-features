@@ -1,6 +1,6 @@
 # Django Features
 
-This is a example of a repository that contains the new feature ideas for
+This is an example of a repository that contains the new feature ideas for
 the Django web framework. This repository is for display purposes only and
 should not be used.
 
