@@ -1,7 +1,7 @@
 ---
 name: Merge third-party package
 description: Propose merging a third-party package into Django
-labels: ['merge-package']
+labels: ['type / merge-package']
 body:
   - type: markdown
     attributes:

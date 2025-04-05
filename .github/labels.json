@@ -186,5 +186,17 @@
   {
     "name": "phase / implementation",
     "color": "fbca04"
+  },
+  {
+    "name": "type / commercial",
+    "color": "d93f0b"
+  },
+  {
+    "name": "type / feature",
+    "color": "d93f0b"
+  },
+  {
+    "name": "type / merge-package",
+    "color": "d93f0b"
   }
 ]
