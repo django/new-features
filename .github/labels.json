@@ -1,0 +1,190 @@
+[
+  {
+    "name": "component / contrib.admin",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.admindocs",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.auth",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.contenttypes",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.flatpages",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.humanize",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.messages",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.postgres",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.redirects",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.sessions",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.sitemaps",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.sites",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.staticfiles",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / contrib.syndication",
+    "color": "5319e7"
+  },
+  {
+    "name": "component / Core (Cache system)",
+    "color": "0366d6"
+  },
+  {
+    "name": "component / Core (Mail)",
+    "color": "0366d6"
+  },
+  {
+    "name": "component / Core (Management commands)",
+    "color": "0366d6"
+  },
+  {
+    "name": "component / Core (Other)",
+    "color": "0366d6"
+  },
+  {
+    "name": "component / Core (Serialization)",
+    "color": "0366d6"
+  },
+  {
+    "name": "component / Core (System checks)",
+    "color": "0366d6"
+  },
+  {
+    "name": "component / Core (URLs)",
+    "color": "0366d6"
+  },
+  {
+    "name": "component / CSRF",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / Database layer (models, ORM)",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / Documentation",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / Error reporting",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / File uploads/storage",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / Forms",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / Generic views",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / GIS",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / HTTP handling",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / Internationalization",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / Migrations",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / Packaging",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / Template system",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / Testing framework",
+    "color": "1d76db"
+  },
+  {
+    "name": "component / Utilities",
+    "color": "1d76db"
+  },
+  {
+    "name": "size / small",
+    "color": "c2e0c6"
+  },
+  {
+    "name": "size / medium",
+    "color": "c2e0c6"
+  },
+  {
+    "name": "size / large",
+    "color": "c2e0c6"
+  },
+  {
+    "name": "phase / new",
+    "color": "fbca04"
+  },
+  {
+    "name": "phase / is there community support",
+    "color": "fbca04"
+  },
+  {
+    "name": "phase / is this expected in core",
+    "color": "fbca04"
+  },
+  {
+    "name": "phase / third-party package",
+    "color": "fbca04"
+  },
+  {
+    "name": "phase / needs community DEP",
+    "color": "fbca04"
+  },
+  {
+    "name": "phase / wontfix",
+    "color": "fbca04"
+  },
+  {
+    "name": "phase / needs SC DEP",
+    "color": "fbca04"
+  },
+  {
+    "name": "phase / implementation",
+    "color": "fbca04"
+  }
+]
