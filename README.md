@@ -2,9 +2,6 @@
 
 ## TODOs
 
-- Write up overview in English
-- Move the mermaid chart to the proper location
-- Write up descriptions of each phase
 - Write up instructions for SC / Feature Review team for each phase
 - Generate URLs for various queues for people to bookmark
 - Write up instructions for an expedited DEP process
