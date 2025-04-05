@@ -4,6 +4,7 @@
 
 - Write up instructions for SC / Feature Review team for each phase
 - Generate URLs for various queues for people to bookmark
+- Update new idea process to mention they should search existing ideas first
 
 ## Have an idea for Django?
 
@@ -201,4 +202,9 @@ likely the person or group of people who will be implementing the feature.
 
 Please share your opinions on the [Forum](https://forum.djangoproject.com/c/internals/5).
 
+## Steering Council instructions
+
+There are several tasks that the Steering Council should take to
+maintain the backlog of ideas. Not every idea must be reviewed at
+every interval, but some ideas should constantly be moving forward.
 
