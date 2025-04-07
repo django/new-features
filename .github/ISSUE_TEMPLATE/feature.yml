@@ -1,5 +1,5 @@
 ---
-name: Feature request
+name: Feature
 description: Suggest a new feature or enhancement
 labels: ['type / feature', 'phase / new']
 body:
@@ -36,6 +36,17 @@ body:
       label: Problem
       description: What problem(s) does this solve? Please explain the problem or problems this feature would address.
     validations:
+      required: true
+
+  - type: dropdown
+    id: request
+    attributs:
+      label: Request or proposal
+      description: Do you propose being part of the team that will implement the feature or are you requesting for a feature to be built by others
+      options:
+        - request
+        - proposal
+    validation:
       required: true
 
   - type: textarea
