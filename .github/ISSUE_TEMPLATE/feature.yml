@@ -46,7 +46,7 @@ body:
       options:
         - request
         - proposal
-    validation:
+    validations:
       required: true
 
   - type: textarea
