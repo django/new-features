@@ -40,7 +40,7 @@ body:
 
   - type: dropdown
     id: request
-    attributs:
+    attributes:
       label: Request or proposal
       description: Do you propose being part of the team that will implement the feature or are you requesting for a feature to be built by others
       options:
