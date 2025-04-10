@@ -3,6 +3,9 @@ name: Auto Comment on New Issues
 on:
   issues:
     types: [opened]
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  MY_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   auto-comment:
@@ -35,3 +38,17 @@ jobs:
               repo: context.repo.repo,
               body: commentBody
             });
+  move-issue-to-repository-project-column:
+    name: Move issues to repository project column
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      repository-projects: write
+    steps:
+      - name: Assign new issues to project new-features
+        uses: actions/add-to-project@v0.5.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          project-url: 'https://github.com/users/nanuxbe/projects/1'
+          labeled: this-is-a-dirty-hack-but-i-m-getting-tired-of-this
+          label-operator: NOT
