@@ -1,8 +1,10 @@
 # Django Features
 
-This is an example of a repository that contains the new feature ideas for
-the Django web framework. This repository is for display purposes only and
-should not be used.
+We are currently testing a way to propose new features to Django.
+
+For browsing purposes you might like [the kanban view of this repo](https://github.com/orgs/django/projects/24/views/1) better.
+
+The README on this repo is very much a work in progress and is likely to change according to the feedback we get as well as the teachings its usage will bring us.
 
 ## Have an idea for Django?
 
@@ -10,20 +12,20 @@ Please know, things in Django take a while. You will need to be patient.
 
 Please start with reviewing the [new feature process in Django](#djangos-new-feature-process).
 
-Next, go [create an issue in this repository](https://github.com/tim-schilling/new-features/issues/new).
+Next, go [create an issue in this repository](https://github.com/django/new-features/issues/new).
 
 ## Want to help steer Django?
 
 There are three queues that need community involvement:
 
-- [Is there community support?](https://github.com/tim-schilling/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20there%20community%20support%22)
+- [Is there community support?](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20there%20community%20support%22)
   - Review the open tickets in this queue. Please share support on this via emojis.
   - Please follow the [Emoji Reaction guide](#emoji-reaction-guide)
   - See [Is there community support?](#is-there-community-support) for more details
-- [Is a feature expected in Django core?](https://github.com/tim-schilling/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20this%20expected%20in%20core%22)
+- [Is a feature expected in Django core?](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20this%20expected%20in%20core%22)
   - Weigh-in on whether a feature should exist in Django core
   - See [Is this expected in Django?](#is-this-expected-in-django) for more details
-- [Needing volunteers to implement or implementation review](https://github.com/tim-schilling/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20needs%20community%20DEP%22)
+- [Needing volunteers to implement or implementation review](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20needs%20community%20DEP%22)
   - Help implement or design features
   - See [Can we do it?](#can-we-do-it) for more details
 
@@ -208,7 +210,7 @@ every interval, but some ideas should constantly be moving forward.
 
 ### Triaging new ideas
 
-- [Queue to review](https://github.com/tim-schilling/new-features/issues?q=is%3Aissue%20state%3Aopen%20(no%3Alabel%20OR%20label%3A%22phase%20%2F%20new%22))
+- [Queue to review](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20(no%3Alabel%20OR%20label%3A%22phase%20%2F%20new%22))
 - Any relevant labels should be applied to the issue 
 - If the issue is a duplicate of another, it should be closed and referred to the original
 - The concerns of triaging are:
@@ -218,7 +220,7 @@ every interval, but some ideas should constantly be moving forward.
 
 ### Determining consensus on community support
 
-- [Queue to review](https://github.com/tim-schilling/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20there%20community%20support%22%20)
+- [Queue to review](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20there%20community%20support%22%20)
 - The issues should be reviewed to determine if the community has arrived at consensus
   - The question here is, “Does the community think this change is good for Django?”
   - People who expressed significant disagreement may be asked to explain their disagreement
@@ -234,7 +236,7 @@ every interval, but some ideas should constantly be moving forward.
 
 ### Determining is this expected in Django
 
-- [Queue to review](https://github.com/tim-schilling/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20this%20expected%20in%20core%22)
+- [Queue to review](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20this%20expected%20in%20core%22)
 - The issue should be reviewed to determine if the idea is expected to be in Django
   - Features that should be merged into core Django are:
     - Proven to be integral to Django a significant number of applications
@@ -253,7 +255,7 @@ every interval, but some ideas should constantly be moving forward.
 
 ### Creating DEPs for expected features
 
-- [Queue to review](https://github.com/tim-schilling/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20needs%20SC%20DEP%22)
+- [Queue to review](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20needs%20SC%20DEP%22)
 - The issue should have a DEP created at 
   - It should contain the following sections:
     - Title
