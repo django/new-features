@@ -49,6 +49,6 @@ jobs:
         uses: actions/add-to-project@v0.5.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          project-url: 'https://github.com/users/nanuxbe/projects/1'
+          project-url: 'https://github.com/orgs/django/projects/24'
           labeled: this-is-a-dirty-hack-but-i-m-getting-tired-of-this
           label-operator: NOT
