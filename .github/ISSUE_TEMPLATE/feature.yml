@@ -10,7 +10,7 @@ body:
 
         If you haven't already, [please go search the existing issues for ideas similar to yours](https://github.com/django/new-features/issues?q=is%3Aissue).
 
-        Please use a single issue for a one feature suggestions. If you have related ideas, please create multiple issues which reference each other.
+        Please use a single issue for each feature suggestion. If you have related ideas, please create multiple issues which reference each other.
 
         If English isn't your native language, let us know and do your best. If you'd like, you can answer in your native language and we'll use translation tools.
 
