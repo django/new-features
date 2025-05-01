@@ -7,9 +7,11 @@ body:
     attributes:
       value: |
         Thank you for taking time to suggest your idea! Please be aware that this process takes a while (at least weeks). We appreciate your patience!
-        
+
         If you haven't already, [please go search the existing issues for ideas similar to yours](https://github.com/django/new-features/issues?q=is%3Aissue).
-        
+
+        Where possible, please don't make multiple feature suggestions in a single issue. Open multiple issues for distinct suggestions.
+
         If English isn't your native language, let us know and do your best. If you'd like, you can answer in your native language and we'll use translation tools.
 
   - type: checkboxes
