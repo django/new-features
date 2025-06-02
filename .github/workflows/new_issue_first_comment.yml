@@ -38,17 +38,3 @@ jobs:
               repo: context.repo.repo,
               body: commentBody
             });
-  move-issue-to-repository-project-column:
-    name: Move issues to repository project column
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      repository-projects: write
-    steps:
-      - name: Assign new issues to project new-features
-        uses: actions/add-to-project@v0.5.0
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          project-url: 'https://github.com/orgs/django/projects/24'
-          labeled: this-is-a-dirty-hack-but-i-m-getting-tired-of-this
-          label-operator: NOT
