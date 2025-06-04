@@ -20,7 +20,7 @@ jobs:
           script: |
             const creator = context.payload.issue.user.login;
             
-            const commentBody = `Thank you ${creator} for sharing your idea! We have a lot of them so please be patient. You can see the current queue here.
+            const commentBody = `Thank you ${creator} for sharing your idea! We have a lot of them so please be patient. You can see the [current queue here](https://github.com/orgs/django/projects/24/views/1?query=layout%3Dtable&filterQuery=status%3AIdea+state%3Aopen&layout=table&sortedBy%5Bdirection%5D=&sortedBy%5BcolumnId%5D=).
 
               ### Community instructions
               For commenters, please use the emoji reactions on the issue to express support, and/or concern easily. Please use the comments to ask questions or contribute knowledge about the idea. It is unhelpful to post comments of "I'd love this" or "What's the state of this?"
