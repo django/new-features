@@ -18,14 +18,14 @@ Next, go [create an issue in this repository](https://github.com/django/new-feat
 
 There are three queues that need community involvement:
 
-- [Is there community support?](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20there%20community%20support%22)
+- [Is there community support?](https://github.com/orgs/django/projects/24/views/1?query=layout%3Dtable&filterQuery=status%3AIdea+state%3Aopen&layout=table&sortedBy%5Bdirection%5D=&sortedBy%5BcolumnId%5D=)
   - Review the open tickets in this queue. Please share support on this via emojis.
   - Please follow the [Emoji Reaction guide](#emoji-reaction-guide)
   - See [Is there community support?](#is-there-community-support) for more details
-- [Is a feature expected in Django core?](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20this%20expected%20in%20core%22)
+- [Is a feature expected in Django core?](https://github.com/orgs/django/projects/24/views/1?query=layout%3Dtable&filterQuery=status%3A%22Idea+refinement+-+Team+creation+-+For+approval%22+state%3Aopen&layout=table&sortedBy%5Bdirection%5D=&sortedBy%5BcolumnId%5D=)
   - Weigh-in on whether a feature should exist in Django core
   - See [Is this expected in Django?](#is-this-expected-in-django) for more details
-- [Needing volunteers to implement or implementation review](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20needs%20community%20DEP%22)
+- [Needing volunteers to implement or implementation review](https://github.com/orgs/django/projects/24/views/1?query=layout%3Dtable&filterQuery=status%3A%22Idea+refinement+-+Team+creation+-+For+approval%22+state%3Aopen+label%3A%22Needs+team%22&layout=table&sortedBy%5Bdirection%5D=&sortedBy%5BcolumnId%5D=)
   - Help implement or design features
   - See [Can we do it?](#can-we-do-it) for more details
 
@@ -40,7 +40,7 @@ follow and require a person to summarize periodically.
 Please avoid doing the following:
 
 - Writing comments that are "+1" or "-1". Use emojis to share those opinions, please.
-- Writing comments that are "What's the state of this?" You can see which phase of the process the idea is in by looking at the labels
+- Writing comments that are "What's the state of this?" You can see which phase of the process the idea is in by looking at the labels and at the project board.
 
 
 ## Django's new feature process
@@ -220,7 +220,7 @@ every interval, but some ideas should constantly be moving forward.
 
 ### Determining consensus on community support
 
-- [Queue to review](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20there%20community%20support%22%20)
+- [Queue to review](https://github.com/orgs/django/projects/24/views/1?query=layout%3Dtable&filterQuery=status%3AIdea+state%3Aopen&layout=table&sortedBy%5Bdirection%5D=&sortedBy%5BcolumnId%5D=)
 - The issues should be reviewed to determine if the community has arrived at consensus
   - The question here is, “Does the community think this change is good for Django?”
   - People who expressed significant disagreement may be asked to explain their disagreement
@@ -236,7 +236,7 @@ every interval, but some ideas should constantly be moving forward.
 
 ### Determining is this expected in Django
 
-- [Queue to review](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20is%20this%20expected%20in%20core%22)
+- [Queue to review](https://github.com/orgs/django/projects/24/views/1?query=layout%3Dtable&filterQuery=status%3A%22Idea+refinement+-+Team+creation+-+For+approval%22+state%3Aopen&layout=table&sortedBy%5Bdirection%5D=&sortedBy%5BcolumnId%5D=)
 - The issue should be reviewed to determine if the idea is expected to be in Django
   - Features that should be merged into core Django are:
     - Proven to be integral to Django a significant number of applications
@@ -255,7 +255,7 @@ every interval, but some ideas should constantly be moving forward.
 
 ### Creating DEPs for expected features
 
-- [Queue to review](https://github.com/django/new-features/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22phase%20%2F%20needs%20SC%20DEP%22)
+- [Queue to review](https://github.com/orgs/django/projects/24/views/1?query=layout%3Dtable&filterQuery=status%3A%22Idea+refinement+-+Team+creation+-+For+approval%22+state%3Aopen&layout=table&sortedBy%5Bdirection%5D=&sortedBy%5BcolumnId%5D=)
 - The issue should have a DEP created at 
   - It should contain the following sections:
     - Title
