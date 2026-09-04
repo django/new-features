@@ -2,7 +2,8 @@
 
 An in-person review of the Django [new features](https://code.djangoproject.com/query?status=new&type=New+feature&col=id&col=summary&col=status&col=owner&col=type&col=version&col=has_patch&order=priority) can be a productive way to surface shared priorities, clarify issues, and advance their state. The format is flexible and can be adapted to the group.
 
-Working together in person can enable quickly reaching consensus on topics, in a way that can be elusive on line.
+Working together in person can enable quickly reaching consensus on topics, in a way that can be elusive online. To learn more about the experience of an in-person sprint event, please listen to the [Django Chat episode with Paolo Melchiorre](https://djangochat.com/episodes/django-on-the-med-paolo-melchiorre).
+
 ## What is helpful
 
 - A large screen so everyone can follow the same issues and discussions
